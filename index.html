@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .circular-img {
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Maruthi M - Digital Resume</h1>
+    </header>
+
+    <div class="container">
+        <!-- CV Download Link -->
+        <section id="cv-link">
+            <p>Download my CV: <a href="C:\Users\marut\OneDrive\Desktop\resume\resume.pdf" download>Click here to download</a></p>
+        </section>
+
+        <section id="profile">
+            <div class="profile_container">
+                <div class="profile_profileImg">
+                    <img src="C:\Users\marut\OneDrive\Desktop\resume\my pic.jpg" alt="my pic" class="circular-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Name: Maruthi M</li>
+                <li>Email: <a href="mailto:"maruthi17m@gmail.com">maruthi17m@gmail.com</a></li>
+                <li>Phone: +91 94818 29595</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/maruthi-m-b79352278" target="_blank">LinkedIn Profile</a></li>
+                <li>GitHub: <a href="https://github.com/maruthim17" target="_blank">GitHub Profile</a></li>
+                <li>Resume: <a href="C:\Users\marut\OneDrive\Desktop\resume\resume.pdf" download>Download Resume</a></li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education Qualification</h2>
+            <ul>
+                <li>GITAM Deemed to be University, Bengaluru
+                    <ul>
+                        <li>Branch: Electronics and Communication Engineering</li>
+                        <li>Year: 2021-2025</li>
+                        <li>CGPA: 7.57</li>
+                    </ul>
+                </li>
+                <li>BGS PU COLLEGE, hesergatta
+                    <ul>
+                        <li>Branch: PCMB</li>
+                        <li>Year: 2019-2021</li>
+                        <li>Percentage: 83.0%</li>
+                    </ul>
+                </li>
+                <li>BEML HIGH SCHOOL , KGF
+                    <ul>
+                        <li>Standard: 10th</li>
+                        <li>Year: 2019</li>
+                        <li>Percentage: 79.52%</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="technical-skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>C Programming</li>
+                <li>Embedded C</li>
+                <li>Python Programming</li>
+                <li>PCB Designing</li>
+                <li>C++</li>
+            </ul>
+        </section>
+
+        <section id="internships">
+            <h2>Internships</h2>
+            <ul>
+                <li>Project Management Fundamentals at IBM Skills Build</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <p>Wumpus world puzzle solving by a robot using artificial intelligence.</p>
+            <ul>
+                <li>Utilized Arduino Uno for operation.</li>
+                <li>Designed for easy operation and control.</li>
+            </ul>
+        </section>
+
+    
+
+        <section id="soft-skills">
+            <h2>Soft Skills</h2>
+            <ul>
+                <li>Time Management</li>
+                <li>Leadership</li>
+                <li>Decision Making</li>
+            </ul>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Travelling</li>
+                <li>Photography</li>
+                <li>Cooking</li>
+                <li>Listening to Music</li>
+            </ul>
+        </section>
+
+        <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Kannada</li>
+                <li>Telugu</li>
+                <li>Hindi</li>
+                <li>English</li>
+            </ul>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('a').forEach(link => {
+                console.log(link.href);
+            });
+        });
+    </script>
+</body>
+
+</html>
